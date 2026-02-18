@@ -1,0 +1,13 @@
+module.exports = {
+    apps: [{
+        name: "my-sveltekit-app01",
+        script: "build/index.js",
+        env: {
+            NODE_ENV: "production",
+            PORT: 0000,
+            DATABASE_URL: "postgres://user:password@host:port/db-name",
+            ORIGIN: "",
+            BETTER_AUTH_SECRET: ""
+        }
+    }]
+}

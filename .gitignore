@@ -24,3 +24,9 @@ vite.config.ts.timestamp-*
 # Paraglide
 src/lib/paraglide
 project.inlang/cache/
+
+# ecosystem.config.cjs
+ecosystem.config.cjs
+ecosystem.config.cjs.*
+!ecosystem.config.cjs.example
+!ecosystem.config.cjs.test
